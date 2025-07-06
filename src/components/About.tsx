@@ -50,7 +50,23 @@ const About = () => {
               care is what transforms a simple display into an unforgettable
               experience.
             </p>
-            <div>
+            <div className='flex items-s gap-6'>
+              {/* Внутрішня секція з рейтингом */}
+              <div className='flex flex-row'>
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <svg
+                    key={i}
+                    width='1em'
+                    height='1em'
+                    viewBox='0 0 20 20'
+                    fill='white'
+                    xmlns='http://www.w3.org/2000/svg'
+                    style={{ fontSize: '1.5em' }}
+                  >
+                    <path d='M10 15.27L16.18 19l-1.64-7.03L19 7.24l-7.19-.61L10 0 8.19 6.63 1 7.24l5.46 4.73L4.82 19z' />
+                  </svg>
+                ))}
+              </div>
               <p className='md:text-3xl text-xl font-bold'>
                 <span>4.5</span>/5
               </p>
@@ -65,29 +81,29 @@ const About = () => {
       <div className='top-grid'>
         <div className='md:col-span-3'>
           <div className='noisy' />
-          <img src='/images/abt1.png' alt='grid-img-1' />
+          <img src='/images/picture-1.jpg' alt='grid-img-1' />
         </div>
 
         <div className='md:col-span-6'>
           <div className='noisy' />
-          <img src='/images/abt2.png' alt='grid-img-2' />
+          <img src='/images/picture-2.jpg' alt='grid-img-2' />
         </div>
 
         <div className='md:col-span-3'>
           <div className='noisy' />
-          <img src='/images/abt5.png' alt='grid-img-5' />
+          <img src='/images/picture-5.jpg' alt='grid-img-5' />
         </div>
       </div>
 
       <div className='bottom-grid'>
         <div className='md:col-span-8'>
           <div className='noisy' />
-          <img src='/images/abt3.png' alt='grid-img-3' />
+          <img src='/images/picture-3.jpg' alt='grid-img-3' />
         </div>
 
         <div className='md:col-span-4'>
           <div className='noisy' />
-          <img src='/images/abt4.png' alt='grid-img-4' />
+          <img src='/images/picture-4.jpg' alt='grid-img-4' />
         </div>
       </div>
     </div>

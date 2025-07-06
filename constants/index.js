@@ -8,8 +8,8 @@ const navLinks = [
 	title: "About Us",
  },
  {
-	id: "work",
-	title: "The Art",
+	id: "art",
+	title: "The Craft",
  },
  {
 	id: "contact",
@@ -18,57 +18,57 @@ const navLinks = [
 ];
 
 const cocktailLists = [
- {
-	name: "Chapel Hill Shiraz",
-	country: "AU",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Caten Malbee",
-	country: "AU",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Rhino Pale Ale",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Irish Guinness",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+{
+    name: "Rhythms of the Ancients",
+    country: "GH", 
+    detail: "Audio Experience + Guidebook",
+    price: "$12",
+  },
+  {
+    name: "Scaled Realities",
+    country: "JP", 
+    detail: "3D Replica Set",
+    price: "$35",
+  },
+  {
+    name: "Echoes of the Nile",
+    country: "EG", 
+    detail: "Collector's Catalog",
+    price: "$45",
+  },
+  {
+    name: "Da Vinci: The Mind Unbound",
+    country: "IT", 
+    detail: "Prints & Blueprint Pack",
+    price: "$60",
+  },
 ];
 
 const mockTailLists = [
- {
-	name: "Tropical Bloom",
-	country: "US",
-	detail: "Battle",
-	price: "$10",
- },
- {
-	name: "Passionfruit Mint",
-	country: "US",
-	detail: "Battle",
-	price: "$49",
- },
- {
-	name: "Citrus Glow",
-	country: "CA",
-	detail: "750 ml",
-	price: "$20",
- },
- {
-	name: "Lavender Fizz",
-	country: "IE",
-	detail: "600 ml",
-	price: "$29",
- },
+  {
+    name: "Tropical Bloom",
+    country: "US",
+    detail: "Immersive Floral Projection",
+    price: "$10",
+  },
+  {
+    name: "Passionfruit Mint",
+    country: "US",
+    detail: "Augmented Reality Installation",
+    price: "$49",
+  },
+  {
+    name: "Citrus Glow",
+    country: "CA",
+    detail: "Light & Scent Experience (750 ml scent capsule)",
+    price: "$20",
+  },
+  {
+    name: "Lavender Fizz",
+    country: "IE",
+    detail: "VR Journey through Botanical History (600 ml diffuser)",
+    price: "$29",
+  }
 ];
 
 const profileLists = [
@@ -87,33 +87,33 @@ const profileLists = [
 ];
 
 const featureLists = [
- "Perfectly balanced blends",
- "Garnished to perfection",
- "Ice-cold every time",
- "Expertly shaken & stirred",
+  "Curated by world-class historians",
+  "Immersive multisensory exhibitions",
+  "Thought-provoking thematic rooms",
+  "Blending tradition with technology",
 ];
 
 const goodLists = [
- "Handpicked ingredients",
- "Signature techniques",
- "Bartending artistry in action",
- "Freshly muddled flavors",
+  "Authentic artifacts & replicas",
+  "Rotating international showcases",
+  "Guided tours and workshops",
+  "Exclusive access for members",
 ];
 
 const storeInfo = {
- heading: "Where to Find Us",
- address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
- contact: {
-	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
- },
+  heading: "Visit the Museum",
+  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+  contact: {
+    phone: "(555) 987-6543",
+    email: "info@museumverse.org",
+  },
 };
 
 const openingHours = [
- { day: "Mon–Thu", time: "11:00am – 12am" },
- { day: "Fri", time: "11:00am – 2am" },
- { day: "Sat", time: "9:00am – 2am" },
- { day: "Sun", time: "9:00am – 1am" },
+  { day: "Mon–Thu", time: "10:00am – 7:00pm" },
+  { day: "Fri", time: "10:00am – 9:00pm" },
+  { day: "Sat", time: "9:00am – 9:00pm" },
+  { day: "Sun", time: "9:00am – 6:00pm" },
 ];
 
 const socials = [
@@ -134,39 +134,39 @@ const socials = [
  },
 ];
 
-const sliderLists = [
- {
-	id: 1,
-	name: "Classic Mojito",
-	image: "/images/drink1.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 2,
-	name: "Raspberry Mojito",
-	image: "/images/drink2.png",
-	title: "A Zesty Classic That Never Fails",
-	description:
-	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
- },
- {
-	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
-	title: "Simple Ingredients, Bold Flavor",
-	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
- },
- {
-	id: 4,
-	name: "Curacao Mojito",
-	image: "/images/drink4.png",
-	title: "Crafted With Care, Poured With Love",
-	description:
-	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
- },
+const exibitLists = [
+  {
+    id: 1,
+    name: "Rhythms of the Ancients",
+    image: "/images/exhibit-1.jpg",
+    title: "Sound Before Silence",
+    description:
+      "A collection of tribal instruments that takes you back to a time when rhythm was language and sound was ritual. Vibrations that echoed before history itself.",
+  },
+  {
+    id: 2,
+    name: "Scaled Realities",
+    image: "/images/exhibit-2.jpg",
+    title: "Small Worlds, Big Stories",
+    description:
+      "A miniature world of architectural memory. Each room holds a fragment of life; every window is a glimpse into someone’s past.",
+  },
+  {
+    id: 3,
+    name: "Echoes of the Nile",
+    image: "/images/exhibit-3.jpg",
+    title: "Timeless Symbols, Eternal Silence",
+    description:
+      "Pharaonic relics, sarcophagi, and gods in sand — this exhibition immerses you in myth and mortality, where symbols speak louder than words.",
+  },
+  {
+    id: 4,
+    name: "Da Vinci: The Mind Unbound",
+    image: "/images/exhibit-4.jpg",
+    title: "Where Art Meets Engineering",
+    description:
+      "Inventions, sketches, and anatomical marvels. Leonardo’s intellect unfolds like the blueprint of an era — between brushstroke, quill, and cogwheel.",
+  },
 ];
 
 export {
@@ -179,5 +179,5 @@ export {
  openingHours,
  storeInfo,
  socials,
- sliderLists,
+ exibitLists,
 };

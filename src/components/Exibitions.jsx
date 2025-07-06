@@ -58,7 +58,7 @@ const Exibitions = () => {
         </div>
 
         <div className='loved'>
-          <h2>Most popular exibitions:</h2>
+          <h2>Most loved exibitions:</h2>
 
           <ul>
             {mockTailLists.map(({ name, country, detail, price }) => (
