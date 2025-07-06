@@ -1,12 +1,28 @@
-# React + Vite
+# 🦖 Museum Experience — Interactive Web Exhibit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, immersive digital museum experience built with **React Three Fiber**, **GSAP**, and **Framer Motion**. This project blends cutting-edge web animation with 3D rendering to simulate a virtual exhibition environment.
 
-Currently, two official plugins are available:
+## 🧠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔁 Smooth page transitions and timeline-based animations with **GSAP**
+- 🦕 Interactive 3D dinosaur model rendered via **React Three Fiber** (r3f)
+- 📱 Responsive layout optimized for both desktop and mobile
+- 🖼️ Dynamic exhibit listings with animated detail views
+- 🌀 Scroll-triggered effects, parallax layers, and subtle motion design
+- 🎨 Real-time lighting, shadows, and material reflections in 3D space
 
-## Expanding the ESLint configuration
+## 🛠️ Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI Framework
+- **GSAP** — Animation engine for timeline and scroll-based effects
+- **@react-three/fiber** — Declarative WebGL rendering via Three.js
+- **Framer Motion** — UI micro-interactions and layout transitions
+- **Vite** — Fast development bundler
+- **SCSS / Tailwind** — Custom styling (depending on setup)
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+```
